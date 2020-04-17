@@ -1,0 +1,10 @@
+## YAML Template.
+---
+name: HCP
+version: 1.0
+main: org.spigotmc.HCP
+depend: [Vault]
+commands:
+  hcp:
+    description: Check if your cardnumber is registered or not
+    usage: /hcp check [cardnumber]
